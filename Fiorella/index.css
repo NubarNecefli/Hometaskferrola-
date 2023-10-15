@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.a{
+    background:white;
+    width: 100%;
+    height: 100px;
+}
+nav{
+    border-bottom: 1px;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    border-right: 40px;
+    list-style-type: none;
+    text-align: right;
+}
+    
+
+
+
+img{
+    width: 20%;
+    height: 50px;
+    display: flex;
+}
+div{
+   border-left: 40px ;
+    float: right;
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+.kaktus{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    margin-right: 80px;
+}
+.inner-courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.child-courses{
+    flex-basis: 24%;
+    display: flex;
+    flex-wrap:wrap;
+}
+.courses-img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
